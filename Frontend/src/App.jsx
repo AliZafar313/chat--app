@@ -4,6 +4,8 @@
 // import viteLogo from './assets/vite.svg'
 // import './App.css'
 
+import Practice from "./Practice";
+
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -124,7 +126,11 @@
 
  export default function App(){
   return(
+
+    <>
     <div> hello world</div>
+    <Practice />
+    </>
   )
 };
 
